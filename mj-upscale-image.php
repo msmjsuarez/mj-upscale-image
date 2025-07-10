@@ -36,7 +36,7 @@ if (! defined('WPINC')) {
  * Rename this for your plugin and update it as you release new versions.
  */
 define('MJ_UPSCALE_IMAGE_VERSION', '1.0.0');
-define('MJ_UPSCALE_API_KEY', '');
+define('MJ_UPSCALE_API_KEY', ''); //add your API key here
 
 /**
  * The code that runs during plugin activation.
