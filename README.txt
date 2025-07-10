@@ -27,7 +27,7 @@ It’s perfect for photography websites, media portfolios, and applications that
 
 1. Upload the plugin to the `/wp-content/plugins/` directory or install via the WordPress Plugins screen.
 2. Run `composer install` inside the plugin directory to install dependencies.
-3. Add your API key to `wp-config.php`:
+3. Add your API key to main plugin file `mj-upscale-image.php`:
 
 ```php
 define('MJ_UPSCALE_API_KEY', 'your_api_key_here');
@@ -54,14 +54,6 @@ Due to Picsart API limitations, the final resolution cannot exceed 16 megapixels
 
 = Do I need an API key? =
 Yes. You must register for a Picsart Developer API key at https://picsart.io.
-
-== Screenshots ==
-
-Frontend form for uploading and upscaling
-
-Result preview with side-by-side comparison
-
-Admin console logs for API debugging
 
 == Changelog ==
 
